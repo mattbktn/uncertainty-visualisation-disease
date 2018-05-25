@@ -8,7 +8,7 @@ shinyUI(pageWithSidebar(
   
   sidebarPanel(
     # Simple integer interval
-    sliderInput("Time", "Day:", 
+    sliderInput("t", "Day:", 
                 min=0, max=100, value=0),
     
     selectInput("Model Selection", "Models:",
